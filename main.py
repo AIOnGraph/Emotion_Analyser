@@ -47,7 +47,7 @@ class EmotionDetector(VideoProcessorBase):
 # Streamlit UI setup
 st.title("Real-Time Emotion Detection")
 st.write("**This application detects emotions in real-time using your webcam or an uploaded image.**")
-
+st.write('This works on 5 types of emotions :''Angry', 'Happy', 'Neutral', 'Sad', 'Surprise')
 # Option to choose between Webcam or Image Upload (in sidebar)
 option = st.sidebar.selectbox("**Choose input method:**", ("Webcam (WebRTC)", "Upload Image"))
 
